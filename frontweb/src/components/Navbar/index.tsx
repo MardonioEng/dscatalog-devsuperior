@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav">
+    <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav position-absolute">
       <div className="container-fluid">
         <Link to="/" className="nav-logo-text">
           <h4>DS Catalog</h4>
